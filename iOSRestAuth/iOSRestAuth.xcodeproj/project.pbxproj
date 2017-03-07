@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30DBB5DA1E6EE8CA00513F51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DBB5D91E6EE8CA00513F51 /* main.m */; };
+		30DBB5DD1E6EE8CA00513F51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DBB5DC1E6EE8CA00513F51 /* AppDelegate.m */; };
+		30DBB5E51E6EE8CA00513F51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30DBB5E41E6EE8CA00513F51 /* Assets.xcassets */; };
+		30DBB5E81E6EE8CA00513F51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30DBB5E61E6EE8CA00513F51 /* LaunchScreen.storyboard */; };
+		30DBB5F31E6EE8CA00513F51 /* iOSRestAuthTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DBB5F21E6EE8CA00513F51 /* iOSRestAuthTests.m */; };
+		30DBB5FE1E6EE8CA00513F51 /* iOSRestAuthUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DBB5FD1E6EE8CA00513F51 /* iOSRestAuthUITests.m */; };
+		30DBB64F1E6EE92500513F51 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DBB6401E6EE92500513F51 /* AFHTTPSessionManager.m */; };
+		30DBB6501E6EE92500513F51 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DBB6431E6EE92500513F51 /* AFNetworkReachabilityManager.m */; };
+		30DBB6511E6EE92500513F51 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DBB6451E6EE92500513F51 /* AFSecurityPolicy.m */; };
+		30DBB6521E6EE92500513F51 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DBB6471E6EE92500513F51 /* AFURLRequestSerialization.m */; };
+		30DBB6531E6EE92500513F51 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DBB6491E6EE92500513F51 /* AFURLResponseSerialization.m */; };
+		30DBB6541E6EE92500513F51 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DBB64B1E6EE92500513F51 /* AFURLSessionManager.m */; };
+		30DBB6551E6EE92500513F51 /* GeneralMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DBB64E1E6EE92500513F51 /* GeneralMethod.m */; };
+		30DBB6581E6EE9EB00513F51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30DBB6561E6EE9EB00513F51 /* Main.storyboard */; };
+		30DBB65B1E6EE9F700513F51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DBB65A1E6EE9F700513F51 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30DBB5EF1E6EE8CA00513F51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30DBB5CD1E6EE8CA00513F51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30DBB5D41E6EE8CA00513F51;
+			remoteInfo = iOSRestAuth;
+		};
+		30DBB5FA1E6EE8CA00513F51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30DBB5CD1E6EE8CA00513F51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30DBB5D41E6EE8CA00513F51;
+			remoteInfo = iOSRestAuth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30DBB5D51E6EE8CA00513F51 /* iOSRestAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSRestAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30DBB5D91E6EE8CA00513F51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30DBB5DB1E6EE8CA00513F51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		30DBB5DC1E6EE8CA00513F51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30DBB5E41E6EE8CA00513F51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30DBB5E71E6EE8CA00513F51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30DBB5E91E6EE8CA00513F51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30DBB5EE1E6EE8CA00513F51 /* iOSRestAuthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSRestAuthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30DBB5F21E6EE8CA00513F51 /* iOSRestAuthTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSRestAuthTests.m; sourceTree = "<group>"; };
+		30DBB5F41E6EE8CA00513F51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30DBB5F91E6EE8CA00513F51 /* iOSRestAuthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSRestAuthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30DBB5FD1E6EE8CA00513F51 /* iOSRestAuthUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSRestAuthUITests.m; sourceTree = "<group>"; };
+		30DBB5FF1E6EE8CA00513F51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30DBB63F1E6EE92500513F51 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		30DBB6401E6EE92500513F51 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		30DBB6411E6EE92500513F51 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		30DBB6421E6EE92500513F51 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		30DBB6431E6EE92500513F51 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		30DBB6441E6EE92500513F51 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		30DBB6451E6EE92500513F51 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		30DBB6461E6EE92500513F51 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		30DBB6471E6EE92500513F51 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		30DBB6481E6EE92500513F51 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		30DBB6491E6EE92500513F51 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		30DBB64A1E6EE92500513F51 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		30DBB64B1E6EE92500513F51 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		30DBB64D1E6EE92500513F51 /* GeneralMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralMethod.h; sourceTree = "<group>"; };
+		30DBB64E1E6EE92500513F51 /* GeneralMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralMethod.m; sourceTree = "<group>"; };
+		30DBB6571E6EE9EB00513F51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30DBB6591E6EE9F700513F51 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		30DBB65A1E6EE9F700513F51 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30DBB5D21E6EE8CA00513F51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30DBB5EB1E6EE8CA00513F51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30DBB5F61E6EE8CA00513F51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30DBB5CC1E6EE8CA00513F51 = {
+			isa = PBXGroup;
+			children = (
+				30DBB5D71E6EE8CA00513F51 /* iOSRestAuth */,
+				30DBB5F11E6EE8CA00513F51 /* iOSRestAuthTests */,
+				30DBB5FC1E6EE8CA00513F51 /* iOSRestAuthUITests */,
+				30DBB5D61E6EE8CA00513F51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30DBB5D61E6EE8CA00513F51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30DBB5D51E6EE8CA00513F51 /* iOSRestAuth.app */,
+				30DBB5EE1E6EE8CA00513F51 /* iOSRestAuthTests.xctest */,
+				30DBB5F91E6EE8CA00513F51 /* iOSRestAuthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30DBB5D71E6EE8CA00513F51 /* iOSRestAuth */ = {
+			isa = PBXGroup;
+			children = (
+				30DBB63C1E6EE92500513F51 /* Classes */,
+				30DBB5DB1E6EE8CA00513F51 /* AppDelegate.h */,
+				30DBB5DC1E6EE8CA00513F51 /* AppDelegate.m */,
+				30DBB6591E6EE9F700513F51 /* ViewController.h */,
+				30DBB65A1E6EE9F700513F51 /* ViewController.m */,
+				30DBB6561E6EE9EB00513F51 /* Main.storyboard */,
+				30DBB5E41E6EE8CA00513F51 /* Assets.xcassets */,
+				30DBB5E61E6EE8CA00513F51 /* LaunchScreen.storyboard */,
+				30DBB5E91E6EE8CA00513F51 /* Info.plist */,
+				30DBB5D81E6EE8CA00513F51 /* Supporting Files */,
+			);
+			path = iOSRestAuth;
+			sourceTree = "<group>";
+		};
+		30DBB5D81E6EE8CA00513F51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30DBB5D91E6EE8CA00513F51 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30DBB5F11E6EE8CA00513F51 /* iOSRestAuthTests */ = {
+			isa = PBXGroup;
+			children = (
+				30DBB5F21E6EE8CA00513F51 /* iOSRestAuthTests.m */,
+				30DBB5F41E6EE8CA00513F51 /* Info.plist */,
+			);
+			path = iOSRestAuthTests;
+			sourceTree = "<group>";
+		};
+		30DBB5FC1E6EE8CA00513F51 /* iOSRestAuthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30DBB5FD1E6EE8CA00513F51 /* iOSRestAuthUITests.m */,
+				30DBB5FF1E6EE8CA00513F51 /* Info.plist */,
+			);
+			path = iOSRestAuthUITests;
+			sourceTree = "<group>";
+		};
+		30DBB63C1E6EE92500513F51 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				30DBB63D1E6EE92500513F51 /* AFNetworking-3.1.0 */,
+				30DBB64C1E6EE92500513F51 /* GeneralMethods */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		30DBB63D1E6EE92500513F51 /* AFNetworking-3.1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				30DBB63E1E6EE92500513F51 /* AFNetworking */,
+			);
+			path = "AFNetworking-3.1.0";
+			sourceTree = "<group>";
+		};
+		30DBB63E1E6EE92500513F51 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				30DBB63F1E6EE92500513F51 /* AFHTTPSessionManager.h */,
+				30DBB6401E6EE92500513F51 /* AFHTTPSessionManager.m */,
+				30DBB6411E6EE92500513F51 /* AFNetworking.h */,
+				30DBB6421E6EE92500513F51 /* AFNetworkReachabilityManager.h */,
+				30DBB6431E6EE92500513F51 /* AFNetworkReachabilityManager.m */,
+				30DBB6441E6EE92500513F51 /* AFSecurityPolicy.h */,
+				30DBB6451E6EE92500513F51 /* AFSecurityPolicy.m */,
+				30DBB6461E6EE92500513F51 /* AFURLRequestSerialization.h */,
+				30DBB6471E6EE92500513F51 /* AFURLRequestSerialization.m */,
+				30DBB6481E6EE92500513F51 /* AFURLResponseSerialization.h */,
+				30DBB6491E6EE92500513F51 /* AFURLResponseSerialization.m */,
+				30DBB64A1E6EE92500513F51 /* AFURLSessionManager.h */,
+				30DBB64B1E6EE92500513F51 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		30DBB64C1E6EE92500513F51 /* GeneralMethods */ = {
+			isa = PBXGroup;
+			children = (
+				30DBB64D1E6EE92500513F51 /* GeneralMethod.h */,
+				30DBB64E1E6EE92500513F51 /* GeneralMethod.m */,
+			);
+			path = GeneralMethods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30DBB5D41E6EE8CA00513F51 /* iOSRestAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30DBB6021E6EE8CA00513F51 /* Build configuration list for PBXNativeTarget "iOSRestAuth" */;
+			buildPhases = (
+				30DBB5D11E6EE8CA00513F51 /* Sources */,
+				30DBB5D21E6EE8CA00513F51 /* Frameworks */,
+				30DBB5D31E6EE8CA00513F51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSRestAuth;
+			productName = iOSRestAuth;
+			productReference = 30DBB5D51E6EE8CA00513F51 /* iOSRestAuth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30DBB5ED1E6EE8CA00513F51 /* iOSRestAuthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30DBB6051E6EE8CA00513F51 /* Build configuration list for PBXNativeTarget "iOSRestAuthTests" */;
+			buildPhases = (
+				30DBB5EA1E6EE8CA00513F51 /* Sources */,
+				30DBB5EB1E6EE8CA00513F51 /* Frameworks */,
+				30DBB5EC1E6EE8CA00513F51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30DBB5F01E6EE8CA00513F51 /* PBXTargetDependency */,
+			);
+			name = iOSRestAuthTests;
+			productName = iOSRestAuthTests;
+			productReference = 30DBB5EE1E6EE8CA00513F51 /* iOSRestAuthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30DBB5F81E6EE8CA00513F51 /* iOSRestAuthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30DBB6081E6EE8CA00513F51 /* Build configuration list for PBXNativeTarget "iOSRestAuthUITests" */;
+			buildPhases = (
+				30DBB5F51E6EE8CA00513F51 /* Sources */,
+				30DBB5F61E6EE8CA00513F51 /* Frameworks */,
+				30DBB5F71E6EE8CA00513F51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30DBB5FB1E6EE8CA00513F51 /* PBXTargetDependency */,
+			);
+			name = iOSRestAuthUITests;
+			productName = iOSRestAuthUITests;
+			productReference = 30DBB5F91E6EE8CA00513F51 /* iOSRestAuthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30DBB5CD1E6EE8CA00513F51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Sahil Patni";
+				TargetAttributes = {
+					30DBB5D41E6EE8CA00513F51 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					30DBB5ED1E6EE8CA00513F51 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 30DBB5D41E6EE8CA00513F51;
+					};
+					30DBB5F81E6EE8CA00513F51 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 30DBB5D41E6EE8CA00513F51;
+					};
+				};
+			};
+			buildConfigurationList = 30DBB5D01E6EE8CA00513F51 /* Build configuration list for PBXProject "iOSRestAuth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30DBB5CC1E6EE8CA00513F51;
+			productRefGroup = 30DBB5D61E6EE8CA00513F51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30DBB5D41E6EE8CA00513F51 /* iOSRestAuth */,
+				30DBB5ED1E6EE8CA00513F51 /* iOSRestAuthTests */,
+				30DBB5F81E6EE8CA00513F51 /* iOSRestAuthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30DBB5D31E6EE8CA00513F51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30DBB6581E6EE9EB00513F51 /* Main.storyboard in Resources */,
+				30DBB5E81E6EE8CA00513F51 /* LaunchScreen.storyboard in Resources */,
+				30DBB5E51E6EE8CA00513F51 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30DBB5EC1E6EE8CA00513F51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30DBB5F71E6EE8CA00513F51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30DBB5D11E6EE8CA00513F51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30DBB6541E6EE92500513F51 /* AFURLSessionManager.m in Sources */,
+				30DBB6551E6EE92500513F51 /* GeneralMethod.m in Sources */,
+				30DBB5DD1E6EE8CA00513F51 /* AppDelegate.m in Sources */,
+				30DBB6501E6EE92500513F51 /* AFNetworkReachabilityManager.m in Sources */,
+				30DBB65B1E6EE9F700513F51 /* ViewController.m in Sources */,
+				30DBB5DA1E6EE8CA00513F51 /* main.m in Sources */,
+				30DBB6511E6EE92500513F51 /* AFSecurityPolicy.m in Sources */,
+				30DBB6521E6EE92500513F51 /* AFURLRequestSerialization.m in Sources */,
+				30DBB6531E6EE92500513F51 /* AFURLResponseSerialization.m in Sources */,
+				30DBB64F1E6EE92500513F51 /* AFHTTPSessionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30DBB5EA1E6EE8CA00513F51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30DBB5F31E6EE8CA00513F51 /* iOSRestAuthTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30DBB5F51E6EE8CA00513F51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30DBB5FE1E6EE8CA00513F51 /* iOSRestAuthUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30DBB5F01E6EE8CA00513F51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30DBB5D41E6EE8CA00513F51 /* iOSRestAuth */;
+			targetProxy = 30DBB5EF1E6EE8CA00513F51 /* PBXContainerItemProxy */;
+		};
+		30DBB5FB1E6EE8CA00513F51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30DBB5D41E6EE8CA00513F51 /* iOSRestAuth */;
+			targetProxy = 30DBB5FA1E6EE8CA00513F51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30DBB5E61E6EE8CA00513F51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30DBB5E71E6EE8CA00513F51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		30DBB6561E6EE9EB00513F51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30DBB6571E6EE9EB00513F51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30DBB6001E6EE8CA00513F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		30DBB6011E6EE8CA00513F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30DBB6031E6EE8CA00513F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOSRestAuth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sahil-Patni.iOSRestAuth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		30DBB6041E6EE8CA00513F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOSRestAuth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sahil-Patni.iOSRestAuth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		30DBB6061E6EE8CA00513F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iOSRestAuthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sahil-Patni.iOSRestAuthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSRestAuth.app/iOSRestAuth";
+			};
+			name = Debug;
+		};
+		30DBB6071E6EE8CA00513F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iOSRestAuthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sahil-Patni.iOSRestAuthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSRestAuth.app/iOSRestAuth";
+			};
+			name = Release;
+		};
+		30DBB6091E6EE8CA00513F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iOSRestAuthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sahil-Patni.iOSRestAuthUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iOSRestAuth;
+			};
+			name = Debug;
+		};
+		30DBB60A1E6EE8CA00513F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iOSRestAuthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sahil-Patni.iOSRestAuthUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iOSRestAuth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30DBB5D01E6EE8CA00513F51 /* Build configuration list for PBXProject "iOSRestAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30DBB6001E6EE8CA00513F51 /* Debug */,
+				30DBB6011E6EE8CA00513F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30DBB6021E6EE8CA00513F51 /* Build configuration list for PBXNativeTarget "iOSRestAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30DBB6031E6EE8CA00513F51 /* Debug */,
+				30DBB6041E6EE8CA00513F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30DBB6051E6EE8CA00513F51 /* Build configuration list for PBXNativeTarget "iOSRestAuthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30DBB6061E6EE8CA00513F51 /* Debug */,
+				30DBB6071E6EE8CA00513F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30DBB6081E6EE8CA00513F51 /* Build configuration list for PBXNativeTarget "iOSRestAuthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30DBB6091E6EE8CA00513F51 /* Debug */,
+				30DBB60A1E6EE8CA00513F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30DBB5CD1E6EE8CA00513F51 /* Project object */;
+}
